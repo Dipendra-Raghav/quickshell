@@ -1,0 +1,53 @@
+/* MainBody.css */
+.dashContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: rgb(240, 240, 244);
+    padding: 5px 10px;
+  }
+  
+  .dashCardContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+  }
+ 
+  
+.selectGroup{
+  padding: 3px;
+}
+
+.displayButton{
+  position: relative;
+}
+
+.dropOnClick{
+  position: absolute;
+  width: 250px;
+  background-color: #f8f8fa;
+  border-radius: 10px;
+  margin-top: 10px;
+  z-index: 10;
+}
+
+.dropOnClick > *{
+  width: 100%;
+}
+
+.btn{
+  background:  #f8f8fa;;
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+
+.selectStyle{
+  width: 100px;
+  border-radius: 5px;
+  background: white;
+  padding: 2px 5px;
+}
