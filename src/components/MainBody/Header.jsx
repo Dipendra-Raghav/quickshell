@@ -3,6 +3,9 @@ import { TiThList } from "react-icons/ti";
 import "./MainBody.css";
 import { useDispatch, useSelector} from "react-redux";
 import { selectData } from "../../Actions/DataAction";
+import { FaBars } from 'react-icons/fa';
+
+
 
 const getGroup = () => {
   // console.log(localStorage.getItem("group"));
@@ -59,7 +62,7 @@ const TopNav = () => {
           onClick={() => setDisplayOnClick(!displayOnClick)}
         >
           {" "}
-          <TiThList /> Display
+          <FaBars /> Display
         </button>
         {displayOnClick && (
           <>
